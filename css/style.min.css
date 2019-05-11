@@ -1,1 +1,41 @@
-.carousel,.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item,.view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
+.carousel,
+.carousel .carousel-inner,
+.carousel .carousel-inner .active,
+.carousel .carousel-inner .carousel-item,
+.view,
+body,
+html {
+    height: 100%
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, .2)
+}
+
+.page-footer,
+.top-nav-collapse {
+    background-color: #1C2331
+}
+
+@media only screen and (max-width:768px) {
+    .navbar {
+        background-color: #1C2331
+    }
+}
+
+#logo {
+    font-family: 'Kristi', cursive;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+
+.nav-link {
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-flex-icons {
+    font-size: 22px;
+}
