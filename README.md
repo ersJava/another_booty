@@ -1,29 +1,9 @@
-[![Material Design for Bootstrap](https://mdbootstrap.com/wp-content/uploads/2018/01/corporate.jpg)](https://mdbootstrap.com/freebies/jquery/portfolio/)
+Features I want to add later:
 
-# Bootstrap 4 & Material Design - Portfolio Template 
-
-Free, responsive Portfolio template containing stunning, full-page Intro and different types of galleries. Built with the newest Bootstrap 4 and Material Design. MIT license – free for personal and commercial use.
-
-________
-
-# Live Previews: 
-## https://mdbootstrap.com/freebies/jquery/portfolio/
-
-# Most important features:
-
-1. Fully responsive
-
-2. Plenty of useful components
-
-3. Easy installation
-
-4. Easy to use and customize
-
-5. Active community
-
-6. Dedicated support forum
-
-7. Detailed documentation
+colorful scroll bar : https://mdbootstrap.com/docs/jquery/javascript/scroll/
+Add favicon
+Add animation back on landing (I love to ... )
+Add blinking terminal sign
 
 # Demo:  
 **Main demo**: https://mdbootstrap.com/previews/free-templates/portfolio/full-page-gallery.html
