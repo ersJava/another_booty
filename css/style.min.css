@@ -58,3 +58,8 @@ p {
 }
 /* Navbar styles ends */
 
+.logo-font-title {
+    font-family: 'Kristi', cursive;
+    font-size: 48px;
+    letter-spacing: 4px;
+}
