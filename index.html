@@ -137,7 +137,8 @@
 
       <!--Section: Main info-->
       <section id="portfolio">
-        <h2 class="h2-responsive font-weight-bold my-5 text-center">What I have <span class="logo-font-title">been</span> up
+        <h2 class="h2-responsive font-weight-bold my-5 text-center">What I have <span
+            class="logo-font-title">been</span> up
           to lately</h2>
         <div class="row text-center wow fadeIn">
 
@@ -211,7 +212,7 @@
 
       <hr class="my-5">
 
-      <!--Section: Main features & Quick Start-->
+      <!--Section: About-->
       <section id="about">
 
         <h2 class="h2-responsive font-weight-bold my-5 text-center">About <span class="logo-font-title">me</span></h2>
@@ -222,12 +223,10 @@
           <div class="row">
             <!-- Grid column -->
             <div class="col-lg-5 col-xl-4">
-              <!-- Featured image -->
               <img class="img-fluid z-depth-3" src="assets/img/me02.jpg" alt="photo of me">
               <div class="mask rgba-white-slight"></div>
             </div>
             <div class="col-lg-7 col-xl-8">
-
               <p class="dark-grey-text">I am an adventurous and versatile full-stack web developer passionate about
                 designing dynamic user
                 experiences with beautifully crafted code. I am always curious and looking to learn new technologies for
@@ -239,18 +238,15 @@
                   target="_blank">@Milo_the_Mini_Golden</a> on Instragram!)</p>
               <p class="dark-grey-text"> I am also love to dance and I lived out my dream being a New York Jets NFL
                 Cheerleader through perseverance and dedciated. This is the same attitude I like to bring when
-                faced with any programming challenges. Push beyond what you think your limitations are and amazing things
+                faced with any programming challenges. Push beyond what you think your limitations are and amazing
+                things
                 will happen!</p>
-              <!-- Read more button -->
               <a href="assets/BethSergeantResume.pdf" target="__blank" class="btn btn-primary btn-md">
                 <i class="fas fa-download"></i>
                 My Resume</a>
-
             </div>
             <!-- Grid column -->
-
           </div>
-
       </section>
       <!--Section: Main features & Quick Start-->
 
@@ -258,146 +254,57 @@
 
       <!--Section: Not enough-->
       <section id="contact">
-
-        <h2 class="my-5 h3 text-center">Contact Me</h2>
-
-        <!--First row-->
         <div class="row features-small mb-5 mt-3 wow fadeIn">
+        
+            <div class="col-lg-6">
+       
+              <!-- Conact form starts -->
+              <div class="col-lg-6 text-center">
+                <form action="mailto:ersergeant@gmail.com" method="post" role="form" class="contactForm">
+                  <div class="row">
+                    <!-- <div id="sendmessage">Your message has been sent. Thank you!</div> -->
+                    <div id="errormessage"></div>
+                    <div class="col-lg-6">
+                      <div class="form-group contact-block1">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                          data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                        <div class="validation"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                          data-rule="email" data-msg="Please enter a valid email" />
+                        <div class="validation"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                          data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                        <div class="validation"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="form-group">
+                        <textarea class="form-control" name="message" rows="12" data-rule="required"
+                          data-msg="Please write something for me" placeholder="Message"></textarea>
+                        <div class="validation"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <input type="submit" class="btn btn-defeault" value="Send message">
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <!-- Contact form ends -->
 
-          <!--First column-->
-          <div class="col-md-4">
-            <!--First row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-check-circle fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h6 class="feature-title">Free for personal and commercial use</h6>
-                <p class="grey-text">Our license is user-friendly. Feel free to use MDB for both private as well as
-                  commercial projects.
-                </p>
-                <div style="height:15px"></div>
-              </div>
-            </div>
-            <!--/First row-->
 
-            <!--Second row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-check-circle fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h6 class="feature-title">400+ UI elements</h6>
-                <p class="grey-text">An impressive collection of flexible components allows you to develop any project.
-                </p>
-                <div style="height:15px"></div>
-              </div>
-            </div>
-            <!--/Second row-->
-
-            <!--Third row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-check-circle fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h6 class="feature-title">600+ icons</h6>
-                <p class="grey-text">Hundreds of useful, scalable, vector icons at your disposal.</p>
-                <div style="height:15px"></div>
-              </div>
-            </div>
-            <!--/Third row-->
-
-            <!--Fourth row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-check-circle fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h6 class="feature-title">Fully responsive</h6>
-                <p class="grey-text">It doesn't matter whether your project will be displayed on desktop, laptop, tablet
-                  or mobile phone. MDB
-                  looks great on each screen.</p>
-                <div style="height:15px"></div>
-              </div>
-            </div>
-            <!--/Fourth row-->
-          </div>
-          <!--/First column-->
-
-          <!--Second column-->
-          <div class="col-md-4 flex-center">
-            <img src="https://mdbootstrap.com/img/Others/screens.png" alt="MDB Magazine Template displayed on iPhone"
-              class="z-depth-0 img-fluid z-depth-1">
-          </div>
-          <!--/Second column-->
-
-          <!--Third column-->
-          <div class="col-md-4 mt-2">
-            <!--First row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-check-circle fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h6 class="feature-title">70+ CSS animations</h6>
-                <p class="grey-text">Neat and easy to use animations, which will increase the interactivity of your
-                  project and delight your visitors.
-                </p>
-                <div style="height:15px"></div>
-              </div>
-            </div>
-            <!--/First row-->
-
-            <!--Second row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-check-circle fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h6 class="feature-title">Plenty of useful templates</h6>
-                <p class="grey-text">Need inspiration? Use one of our predefined templates for free.</p>
-                <div style="height:15px"></div>
-              </div>
-            </div>
-            <!--/Second row-->
-
-            <!--Third row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-check-circle fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h6 class="feature-title">Easy installation</h6>
-                <p class="grey-text">5 minutes, a few clicks and... done. You will be surprised at how easy it is.
-                </p>
-                <div style="height:15px"></div>
-              </div>
-            </div>
-            <!--/Third row-->
-
-            <!--Fourth row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-check-circle fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h6 class="feature-title">Easy to use and customize</h6>
-                <p class="grey-text">Using MDB is straightforward and pleasant. Components flexibility allows you deep
-                  customization. You will
-                  easily adjust each component to suit your needs.</p>
-                <div style="height:15px"></div>
-              </div>
-            </div>
-            <!--/Fourth row-->
-          </div>
-          <!--/Third column-->
 
         </div>
-        <!--/First row-->
-
       </section>
-      <!--Section: Not enough-->
+      <!--Section: Contact-->
 
       <hr class="mb-5">
 
