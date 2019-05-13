@@ -64,6 +64,8 @@ p {
     letter-spacing: 4px;
 }
 
+
+/* Contact Me Section */
 .contact-section .form .btn-floating {
     float: right;
     position: relative;
@@ -71,6 +73,13 @@ p {
     margin-right: 0;
 }
 
-.btn-floating .btn-lg {
+.contact-section .contact {
+    -webkit-border-radius: 0 .25rem .25rem 0;
+    border-radius: 0 .25rem .25rem 0;
+    background-color: #4da9ca;
     color: white;
 }
+
+
+
+/* Contact Me Section Ends */
