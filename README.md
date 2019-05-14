@@ -8,5 +8,6 @@ Add color to titles
 Change button color
 Make bio pic small on mobile
 Center contact information
+Mail sends directly https://mdbootstrap.com/docs/jquery/forms/contact/#php
 
 
