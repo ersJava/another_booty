@@ -77,9 +77,18 @@ p {
     -webkit-border-radius: 0 .25rem .25rem 0;
     border-radius: 0 .25rem .25rem 0;
     background-color: #4da9ca;
-    color: white;
+    color: #ffffff;
 }
 
+.fa-paper-plane {
+    color: #ffffff
+}
 
+#btn-mail {
+    background-color: #4da9ca;
+}
 
+.fa-lg {
+    color: #ffffff;
+}
 /* Contact Me Section Ends */
