@@ -98,7 +98,7 @@
           <!-- Mask & flexbox options-->
           <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
             <!-- Content -->
-            <section id="landing">
+            <section id="#">
               <div class="text-center white-text mx-5 wow fadeIn">
                 <h1>
                   <strong>Hello</strong>WORLD!
@@ -131,26 +131,93 @@
           to lately</h2>
         <div class="row text-center wow fadeIn">
 
+          <!-- Project 1 -->
           <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
-            <!--Project 1-->
             <div>
-              <img src="assets/img/project_seed.png" class="img-fluid z-depth-3" alt="Project Seed">
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
+              <img src="assets/img/project_seed.png" class="img-fluid z-depth-3" alt="Project Seed" data-toggle="modal" data-target="#centralModalLGInfo">
             </div>
+            <!-- Central Modal  -->
+            <div class="modal fade" id="centralModalLGInfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-lg modal-notify modal-info" role="document">
+                <!--Content-->
+                <div class="modal-content">
+                  <!--Header-->
+                  <div class="modal-header">
+                    <p class="heading lead">Modal Info</p>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true" class="white-text">&times;</span>
+                    </button>
+                  </div>
+
+                  <!--Body-->
+                  <div class="modal-body">
+                    <div class="text-center">
+                      <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit iusto nulla aperiam
+                        blanditiis
+                        ad consequatur in dolores culpa, dignissimos, eius non possimus fugiat. Esse ratione fuga, enim,
+                        ab officiis totam.</p>
+                    </div>
+                  </div>
+
+                  <!--Footer-->
+                  <div class="modal-footer justify-content-center">
+                    <a type="button" class="btn btn-primary">Get it now <i class="far fa-gem ml-1 text-white"></i></a>
+                    <a type="button" class="btn btn-outline-primary waves-effect" data-dismiss="modal">No, thanks</a>
+                  </div>
+                </div>
+                <!--/.Content-->
+              </div>
+            </div>
+            <!-- Central Modal Ends-->
           </div>
-          <!-- Grid column -->
+          <!-- Project 1 Ends -->
+
+          <!-- Project 2 -->
           <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
-            <!--Project 2-->
             <div>
-              <img src="assets/img/party 2.png" class="img-fluid z-depth-3" alt="Party Like It's 1999">
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
+              <img src="assets/img/party 2.png" class="img-fluid z-depth-3" alt="Party Like It's 1999" data-toggle="modal" data-target="#centralModalLGInfo">
             </div>
+             <!-- Central Modal  -->
+             <div class="modal fade" id="centralModalLGInfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+             aria-hidden="true">
+             <div class="modal-dialog modal-lg modal-notify modal-info" role="document">
+               <!--Content-->
+               <div class="modal-content">
+                 <!--Header-->
+                 <div class="modal-header">
+                   <p class="heading lead">Modal Info</p>
+
+                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true" class="white-text">&times;</span>
+                   </button>
+                 </div>
+
+                 <!--Body-->
+                 <div class="modal-body">
+                   <div class="text-center">
+                     <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit iusto nulla aperiam
+                       blanditiis
+                       ad consequatur in dolores culpa, dignissimos, eius non possimus fugiat. Esse ratione fuga, enim,
+                       ab officiis totam.</p>
+                   </div>
+                 </div>
+
+                 <!--Footer-->
+                 <div class="modal-footer justify-content-center">
+                   <a type="button" class="btn btn-primary">Get it now <i class="far fa-gem ml-1 text-white"></i></a>
+                   <a type="button" class="btn btn-outline-primary waves-effect" data-dismiss="modal">No, thanks</a>
+                 </div>
+               </div>
+               <!--/.Content-->
+             </div>
+           </div>
+           <!-- Central Modal Medium Info-->
           </div>
-          <!-- Grid column -->
+         
           <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
             <!--Project 3-->
             <div>
@@ -238,7 +305,7 @@
 
       <!--Section: Contact-->
 
-      <section class="contact-section my-5">
+      <section class="contact-section my-5" id="contact">
 
         <!-- Form with header -->
         <div class="card">
@@ -296,7 +363,8 @@
                   <div class="md-form mb-0">
                     <textarea id="message" name="message" class="form-control md-textarea" rows="3"></textarea>
                     <label for="message">Message</label>
-                    <a href="mailto: ersergeant@gmail.com" class="btn-floating btn-lg z-depth-3 rounded-circle" id="btn-mail" onclick="validateForm()">
+                    <a href="mailto: ersergeant@gmail.com" class="btn-floating btn-lg z-depth-3 rounded-circle"
+                      id="btn-mail" onclick="validateForm()">
                       <i class="far fa-paper-plane"></i>
                     </a>
                   </div>
