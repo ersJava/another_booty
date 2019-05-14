@@ -7,5 +7,6 @@ Add blinking terminal sign
 Add color to titles
 Change button color
 Make bio pic small on mobile
+Center contact information
 
 
