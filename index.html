@@ -2,484 +2,600 @@
 <html lang="en">
 
 <head>
+  <title>Beth Sergeant Portfolio Page</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Beth Sergeant</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/mdb.min.css" rel="stylesheet">
-  <link href="css/style.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Kristi|Quicksand:300,400" rel="stylesheet">
-  <style type="text/css">
-    /* Necessary for full page carousel*/
-    html,
-    body,
-    header,
-    .view {
-      height: 100%;
-    }
-
-    /* Carousel*/
-    .carousel,
-    .carousel-item,
-    .carousel-item.active {
-      height: 100%;
-    }
-
-    .carousel-inner {
-      height: 100%;
-    }
-
-    @media (min-width: 800px) and (max-width: 850px) {
-      .navbar:not(.top-nav-collapse) {
-        background: #1C2331 !important;
-      }
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- W3schools Bootstrap version -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <!--My custom styles -->
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/animation.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+  <link href="https://fonts.googleapis.com/css?family=Kristi|Poppins" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <!-- Font awesome -->
+  <link href="https://fonts.googleapis.com/css?family=Kristi|Playfair+Display|Poppins:200,300|Inconsolata"
+    rel="stylesheet">
 </head>
 
 <body>
-  <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+  <!-- Start of nav bar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-      <!-- Brand -->
-      <a class="navbar-brand" id="logo" href="#landing">Beth</a>
-      <!-- Collapse -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- Links -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <!-- Left -->
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio
-              <!-- <span class="sr-only">(current)</span> -->
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-        <!-- Right -->
-        <ul class="navbar-nav nav-flex-icons">
-          <li class="nav-item">
-            <a href="https://www.linkedin.com/in/beth-sergeant-69202656/" class="nav-link" target="_blank">
-              <i class="fab fa-linkedin mr-2"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="https://github.com/ersJava" class="nav-link" target="_blank">
-              <i class="fab fa-github mr-2"></i>
-            </a>
-          </li>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#hello">Beth</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </div>
     </div>
   </nav>
-  <!-- Navbar -->
-  <!-- data-ride="carousel" -->
-  <!--Carousel Wrapper-->
-  <div id="carousel-example-1z" class="carousel slide carousel-fade">
-    <!--Slides-->
-    <div class="carousel-inner" role="listbox">
-      <!--First slide-->
-      <div class="carousel-item active">
-        <div class="view">
-          <!--Video source-->
-          <video class="video-intro" autoplay loop muted>
-            <source src="https://mdbootstrap.com/img/video/animation-intro.mp4" type="video/mp4" />
-          </video>
-          <!-- Mask & flexbox options-->
-          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
-            <!-- Content -->
-            <section id="#">
-              <div class="text-center white-text mx-5 wow fadeIn">
-                <h1>
-                  <strong>Hello</strong>WORLD!
-                </h1>
-                <div class="landing-text">
-                  I'm <span class="logo-font">Beth</span> Sergeant
-                </div>
-                <p>I'm a full stack web developer located in New York City.</p>
-                <p>Welcome to my page, please have a look around.</p>
-            </section>
-            <!-- Content -->
-          </div>
-          <!-- Mask & flexbox options-->
-        </div>
-      </div>
-      <!--/First slide-->
-    </div>
-    <!--/.Slides-->
+  <!-- End of nav bar -->
+
+  <div class="container-fluid bg-1 text-center">
+    <h1 class="title">HELLO WORLD!</h1>
+    <h1>I'm <span id="logo">Beth</span> Sergeant.</h1>
+    <h2>I love to<span class="awesome typewrite" data-period="2000"
+        data-type='[ " create.", " develop.", " design."]'></span></h2>
+    <p>I'm a Full stack web developer, <br>
+      a hobbyist dog trainer, <br>
+      & former NFL cheerleader <br>
+      located in New York City!</p>
+    <p>Welcome to my page, please have a look around.</p>
+    <i class="fa fa-terminal" aria-hidden="true"></i>
   </div>
-  <!--/.Carousel Wrapper-->
 
-  <!--Portfolio-->
-  <main>
-    <div class="container">
-
-      <!--Section: Main info-->
-      <section id="portfolio">
-        <h2 class="h2-responsive font-weight-bold my-5 text-center">What I have <span
-            class="logo-font-title">been</span> up
-          to lately</h2>
-        <div class="row text-center wow fadeIn">
-
-          <!-- Project 1 -->
-          <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
-            <div>
-              <img src="assets/img/project_seed.png" class="img-fluid z-depth-3" alt="Project Seed" data-toggle="modal" data-target="#centralModalLGInfo">
+  <!-- Start portfolio Area -->
+  <div id="portfolio" class="container-fluid bg-2 text-center">
+    <div class="portfolio-area area-padding fix">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline text-center">
+              <h1>What I have<span id="logo-content"> been </span>up to lately</h1>
             </div>
-            <!-- Central Modal  -->
-            <div class="modal fade" id="centralModalLGInfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog modal-lg modal-notify modal-info" role="document">
-                <!--Content-->
-                <div class="modal-content">
-                  <!--Header-->
-                  <div class="modal-header">
-                    <p class="heading lead">Modal Info</p>
+            <br>
+          </div>
+        </div>
 
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true" class="white-text">&times;</span>
-                    </button>
-                  </div>
-
-                  <!--Body-->
-                  <div class="modal-body">
-                    <div class="text-center">
-                      <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit iusto nulla aperiam
-                        blanditiis
-                        ad consequatur in dolores culpa, dignissimos, eius non possimus fugiat. Esse ratione fuga, enim,
-                        ab officiis totam.</p>
+        <!-- First Row -->
+        <div class="row">
+          <!-- single-awesome-project start ***-->
+          <div class="col-md-4 col-sm-4 col-xs-12 photo">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <!-- Button to Open the Modal -->
+                <div data-toggle="modal" data-target="#myModal6">
+                  <img src="assets/images/project_seed.png" class="img-responsive" style="width:100%" alt=" mockup"
+                    data-toggle="modal" data-target="#myModal">
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <h4>Project Seed</h4>
+                      <span>React | GraphQL | Semantics</span>
                     </div>
                   </div>
-
-                  <!--Footer-->
-                  <div class="modal-footer justify-content-center">
-                    <a type="button" class="btn btn-primary">Get it now <i class="far fa-gem ml-1 text-white"></i></a>
-                    <a type="button" class="btn btn-outline-primary waves-effect" data-dismiss="modal">No, thanks</a>
+                </div>
+                <!-- The Modal -->
+                <div class="modal fade" id="myModal6">
+                  <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                      <!-- Modal header -->
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h1 id="modal-title">Project Seed</h1>
+                        <h4 id="modal-subt">React | GraphQL | Semantics </h4>
+                      </div>
+                      <!-- header ends -->
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img src="assets/images/project_seed.png" class="img-responsive" width="100%" alt=" mockup"></a>
+                        <p id="port">
+                          Project Seed is an open-source, friendly, online community for new developers
+                          who want to work on awesome projects,
+                          start a team or have an exciting idea for a new application!
+                        </p>
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                          <a href="https://projectseeddev.herokuapp.com/" target="_blank">
+                            <button type="button" id="button-style" class="btn">
+                              <i class="fa fa-desktop" aria-hidden="true"></i>
+                              Live website</button></a>
+                          <a href="https://github.com/ersJava/project_seed" target="_blank">
+                            <button type="button" id="button-style" class="btn">
+                              <i class="fa fa-code" aria-hidden="true"></i>
+                              Code</button></a>
+                        </div>
+                        <!-- Modal footer ends -->
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <!--/.Content-->
+              </div>
+              <!-- modal ends -->
+            </div>
+          </div>
+          <!-- single-awesome-project end *** -->
+          <!-- single-awesome-project start Party-->
+          <div class="col-md-4 col-sm-4 col-xs-12 photo">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <!-- Button to Open the Modal -->
+                <div data-toggle="modal" data-target="#myModal4">
+                  <img src="assets/images/party.png" class="img-responsive" style="width:100%"
+                    alt="Party Like It's 1999 mockup" data-toggle="modal" data-target="#myModal">
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <h4>Party Like It's 1999</h4>
+                      <span>Bulma | jQuery | AJAX</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- The Modal -->
+                <div class="modal fade" id="myModal4">
+                  <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                      <!-- Modal header -->
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h1 id="modal-title">Party Like It's 1999</h1>
+                        <h4 id="modal-subt">Bulma | jQuery | AJAX</h4>
+                      </div>
+                      <!-- header ends -->
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img src="assets/images/party.png" class="img-responsive" width="100%"
+                          alt="Party Like It's 1999 mockup"></a>
+                        <p id="port">Test your 90's music knowledge with this interactive web browser game that
+                          dynamically displays the HTML with the jQuery library and pulls data from multiple
+                          APIs.
+                          <br>
+                          <br>
+                          A timer will begin and lyrics of a song that existed in 1999 will begin to display on
+                          the screen. The user will try and guess the title of the song and submit their answer
+                          in the box below. Guessing correctly will unlock the information page with the music
+                          video, full song and lyrics, and photos of the Artist/Band.
+                        </p>
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                          <a href="https://ersjava.github.io/party_like_its_1999/" target="_blank">
+                            <button type="button" id="button-style" class="btn">
+                              <i class="fa fa-desktop" aria-hidden="true"></i>
+                              Live Demo</button></a>
+                          <a href="https://github.com/ersJava/party_like_its_1999" target="_blank">
+                            <button type="button" id="button-style" class="btn">
+                              <i class="fa fa-code" aria-hidden="true"></i>
+                              See Code</button></a>
+                        </div>
+                        <!-- Modal footer ends -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- modal ends -->
+            </div>
+          </div>
+          <!-- single-awesome-project end Party-->
+
+
+          <!-- single-awesome-project start Friend-->
+          <div class="col-md-4 col-sm-4 col-xs-12 photo">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <!-- Button to Open the Modal -->
+                <div data-toggle="modal" data-target="#myModal">
+                  <img src="assets/images/friendfinder.png" class="img-responsive" style="width:100%"
+                    alt="Friend Finder mockup" data-toggle="modal" data-target="#myModal">
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <h4>Friend Finder</h4>
+                      <span>Node JS | Express JS | Bootstrap</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- The Modal -->
+                <div class="modal fade" id="myModal">
+                  <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                      <!-- Modal header -->
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h1 id="modal-title">Friend Finder</h1>
+                        <h4 id="modal-subt">Node JS | Express JS | Bootstrap</h4>
+                      </div>
+                      <!-- header ends -->
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <img src="assets/images/friendfinder.png" class="img-responsive" width="100%"
+                          alt="Friend Finder mockup"></a>
+                        <p id="port">This full-stack site will ask 10 questions. Each answer is based on a scale from 1
+                          to 5 on how much the user agrees or disagrees with a question.
+                          <br>
+                          <br>
+                          Friend Finder will calculate the score based on the user's answers, then compare the answers
+                          with those from other users, and match the results with the friend with the most compatible
+                          match.
+                        </p>
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                          <a href="https://fathomless-plateau-41513.herokuapp.com" target="_blank">
+                            <button type="button" id="button-style" class="btn">
+                              <i class="fa fa-desktop" aria-hidden="true"></i>
+                              Live Demo</button></a>
+                          <a href="https://github.com/ersJava/FriendFinder" target="_blank">
+                            <button type="button" id="button-style" class="btn">
+                              <i class="fa fa-code" aria-hidden="true"></i>
+                              See Code</button></a>
+                        </div>
+                        <!-- Modal footer ends -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- modal ends -->
+            </div>
+          </div>
+          <!-- single-awesome-project end Friend-->
+
+          <!-- Second row -->
+          <div id="portfolio" class="portfolio-area area-padding fix">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                </div>
+              </div>
+              <div class="row">
+
+                <!-- single-awesome-project LIRI -->
+                <div class="col-md-4 col-sm-4 col-xs-12 photo">
+                  <div class="single-awesome-project">
+                    <div class="awesome-img">
+                      <!-- Button to Open the Modal -->
+                      <div data-toggle="modal" data-target="#myModal2">
+                        <img src="assets/images/liri.png" class="img-responsive" style="width:100%" alt="LIRI mockup"
+                          data-toggle="modal" data-target="#myModal">
+                        <div class="add-actions text-center">
+                          <div class="project-dec">
+                            <h4>LIRI</h4>
+                            <span>Node JS | Axios</span>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- The Modal -->
+                      <div class="modal fade" id="myModal2">
+                        <div class="modal-dialog modal-xl">
+                          <div class="modal-content">
+                            <!-- Modal header -->
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h1 id="modal-title">LIRI</h1>
+                              <h4 id="modal-subt">Node JS | Axios</h4>
+                            </div>
+                            <!-- header ends -->
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                              <img src="assets/images/liri.png" class="img-responsive" width="100%"
+                                alt="LIRI mockup"></a>
+                              <p id="port">LIRI is a Language Interpretation and Recognition Interface that searchs
+                                songs, concerts and movies.LIRI will perform an assortment of functions on the
+                                command line in the terminal. The multiple functions are performed from the case switch
+                                statements.
+                              </p>
+                              <!-- Modal footer -->
+                              <div class="modal-footer">
+                                <a href="https://github.com/ersJava/LIRI" target="_blank">
+                                  <button type="button" id="button-style" class="btn">
+                                    <i class="fa fa-code" aria-hidden="true"></i>
+                                    See Code</button></a>
+                              </div>
+                              <!-- Modal footer ends -->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- modal ends -->
+                  </div>
+                </div>
+                <!-- single-awesome-project end LIRI-->
+
+                <!-- single-awesome-project start BAMAZON-->
+                <div class="col-md-4 col-sm-4 col-xs-12 photo">
+                  <div class="single-awesome-project">
+                    <div class="awesome-img">
+                      <!-- Button to Open the Modal -->
+                      <div data-toggle="modal" data-target="#myModal3">
+                        <img src="assets/images/bamazon.png" class="img-responsive" style="width:100%"
+                          alt="BAMAZON mockup" data-toggle="modal" data-target="#myModal">
+                        <div class="add-actions text-center">
+                          <div class="project-dec">
+                            <h4>Bamazon</h4>
+                            <span>Node JS | MySQL | JavaScript</span>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- The Modal -->
+                      <div class="modal fade" id="myModal3">
+                        <div class="modal-dialog modal-xl">
+                          <div class="modal-content">
+                            <!-- Modal header -->
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h1 id="modal-title">Bamazon</h1>
+                              <h4 id="modal-subt">Node JS | MySQL | JavaScript</h4>
+                            </div>
+                            <!-- header ends -->
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                              <img src="assets/images/bamazon.png" class="img-responsive" width="100%"
+                                alt="BAMAZON mockup"></a>
+                              <p id="port">A command line node application using MySQL to create an online puppy supply
+                                store. It will display a menu of items for purchase and update stock
+                                quantity of item from the store's inventory based on the customer's purchase.
+                              </p>
+                              <!-- Modal footer -->
+                              <div class="modal-footer">
+                                <a href="https://github.com/ersJava/bamazon" target="_blank">
+                                  <button type="button" id="button-style" class="btn">
+                                    <i class="fa fa-code" aria-hidden="true"></i>
+                                    See Code</button></a>
+                              </div>
+                              <!-- Modal footer ends -->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- modal ends -->
+                  </div>
+                </div>
+                <!-- single-awesome-project end BAMAZON-->
+
+
+                <!-- single-awesome-project start Crystals-->
+                <div class="col-md-4 col-sm-4 col-xs-12 photo">
+                  <div class="single-awesome-project">
+                    <div class="awesome-img">
+                      <!-- Button to Open the Modal -->
+                      <div data-toggle="modal" data-target="#myModal5">
+                        <img src="assets/images/crystals.jpg" class="img-responsive" style="width:100%"
+                          alt="Crystal Collector mockup" data-toggle="modal" data-target="#myModal">
+                        <div class="add-actions text-center">
+                          <div class="project-dec">
+                            <h4>Crystal Collector</h4>
+                            <span>HTML5 | CSS | jQuery</span>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- The Modal -->
+                      <div class="modal fade" id="myModal5">
+                        <div class="modal-dialog modal-xl">
+                          <div class="modal-content">
+                            <!-- Modal header -->
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h1 id="modal-title">Crystal Collector</h1>
+                              <h4 id="modal-subt">HTML5 | CSS | jQuery</h4>
+                            </div>
+                            <!-- header ends -->
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                              <img src="assets/images/crystals.jpg" class="img-responsive" width="100%"
+                                alt="Crystal Collector mockup"></a>
+                              <p id="port"> An interactive web browsers game that dynamically updates the HTML with the
+                                jQuery library.
+                                <br>
+                                <br>
+                                The player will be given a random number at the start of the game.
+                                There are four crystals displayed as buttons on the page and the value of
+                                each crystal is hidden until clicked.
+                                The player wins the game by matching the total score to random number.
+                                The game restarts whenever the player wins or loses and the value of each crystal will
+                                change.
+                              </p>
+                              <!-- Modal footer -->
+                              <div class="modal-footer">
+                                <a href="https://ersjava.github.io/crystal_collector/" target="_blank">
+                                  <button type="button" id="button-style" class="btn">
+                                    <i class="fa fa-desktop" aria-hidden="true"></i>
+                                    Live Demo</button></a>
+                                <a href="https://github.com/ersJava/crystal_collector" target="_blank">
+                                  <button type="button" id="button-style" class="btn">
+                                    <i class="fa fa-code" aria-hidden="true"></i>
+                                    See Code</button></a>
+                              </div>
+                              <!-- Modal footer ends -->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- modal ends -->
+                  </div>
+                </div>
+                <!-- single-awesome-project end Crystals-->
+
+
               </div>
             </div>
-            <!-- Central Modal Ends-->
-          </div>
-          <!-- Project 1 Ends -->
-
-          <!-- Project 2 -->
-          <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
-            <div>
-              <img src="assets/img/party 2.png" class="img-fluid z-depth-3" alt="Party Like It's 1999" data-toggle="modal" data-target="#centralModalLGInfo">
-            </div>
-             <!-- Central Modal  -->
-             <div class="modal fade" id="centralModalLGInfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-             aria-hidden="true">
-             <div class="modal-dialog modal-lg modal-notify modal-info" role="document">
-               <!--Content-->
-               <div class="modal-content">
-                 <!--Header-->
-                 <div class="modal-header">
-                   <p class="heading lead">Modal Info</p>
-
-                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                     <span aria-hidden="true" class="white-text">&times;</span>
-                   </button>
-                 </div>
-
-                 <!--Body-->
-                 <div class="modal-body">
-                   <div class="text-center">
-                     <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit iusto nulla aperiam
-                       blanditiis
-                       ad consequatur in dolores culpa, dignissimos, eius non possimus fugiat. Esse ratione fuga, enim,
-                       ab officiis totam.</p>
-                   </div>
-                 </div>
-
-                 <!--Footer-->
-                 <div class="modal-footer justify-content-center">
-                   <a type="button" class="btn btn-primary">Get it now <i class="far fa-gem ml-1 text-white"></i></a>
-                   <a type="button" class="btn btn-outline-primary waves-effect" data-dismiss="modal">No, thanks</a>
-                 </div>
-               </div>
-               <!--/.Content-->
-             </div>
-           </div>
-           <!-- Central Modal Medium Info-->
-          </div>
-         
-          <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
-            <!--Project 3-->
-            <div>
-              <img src="assets/img/friendfinder.png" class="img-fluid z-depth-3" alt="Friendfinder">
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
           </div>
         </div>
-        <br>
-        <div class="row text-center wow fadeIn">
-          <!-- Grid column -->
-          <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
-            <!--Project 1-->
-            <div>
-              <img src="assets/img/liri.png" class="img-fluid z-depth-3" alt="LIRI">
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-          </div>
-          <!-- Grid column -->
-          <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
-            <!--Project 1-->
-            <div>
-              <img src="assets/img/bamazon.png" class="img-fluid z-depth-3" alt="Bamazon">
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-          </div>
-          <!-- Grid column -->
-          <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
-            <!--Project 1-->
-            <div>
-              <img src="assets/img/crystals.jpg" class="img-fluid z-depth-3" alt="Crystal Collector">
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!--Section: Main info-->
+      </div>
+    </div>
+  </div>
+  <!-- awesome-portfolio end -->
 
-      <hr class="my-5">
+  <!-- About me section -->
+  <div id="about" class="container-fluid bg-3 text-center">
+    <h1>About<span id="logo-content"> Me!</span></h1>
 
-      <!--Section: About-->
-      <section id="about">
-        <h2 class="h2-responsive font-weight-bold my-5 text-center">About <span class="logo-font-title">me</span></h2>
-        <!--Grid row-->
-        <div class="row wow fadeIn">
-          <!-- Grid row -->
-          <div class="row">
-            <!-- Grid column -->
-            <div class="col-lg-5 col-xl-4">
-              <img class="img-fluid z-depth-3" src="assets/img/me02.jpg" alt="photo of me">
-              <div class="mask rgba-white-slight"></div>
+    <div class="paddsection">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-4 ">
+            <div class="div-img-bg">
+              <div class="about-img">
+                <img src="assets/images/me01.jpg" class="img-responsive" alt="me">
+              </div>
             </div>
-            <div class="col-lg-7 col-xl-8">
-              <p class="dark-grey-text">I am an adventurous and versatile full-stack web developer passionate about
-                designing dynamic user
+          </div>
+          <div class="col-lg-7">
+            <div class="about-descr">
+              <p class="p-heading">
+                I am an adventurous and versatile full-stack web developer passionate about designing dynamic user
                 experiences with beautifully crafted code. I am always curious and looking to learn new technologies for
-                personal interest and professional growth.</p>
-              <p class="dark-grey-text">When I am not coding and creating, I love to spend time with my boyfriend Jesse
-                and our mini golden
-                retriever, Milo (if you want to see the impressive tricks I
-                taught him follow <a id="milo-link" href="https://www.instagram.com/milo_the_mini_golden/"
-                  target="_blank">@Milo_the_Mini_Golden</a> on Instragram!)</p>
-              <p class="dark-grey-text"> I am also love to dance and I lived out my dream being a New York Jets NFL
-                Cheerleader through perseverance and dedciated. This is the same attitude I like to bring when
-                faced with any programming challenges. Push beyond what you think your limitations are and amazing
-                things
-                will happen!</p>
-              <a href="assets/BethSergeantResume.pdf" target="__blank" class="btn btn-primary btn-md">
-                <i class="fas fa-download"></i>
-                My Resume</a>
+                personal interest and professional growth.
+                <br>
+                <br>
+                When I am not coding and creating, I love to spend time with my boyfriend Jesse and our mini golden
+                retriever, Milo (if you are looking for daily puppy therapy or want to see the impressive tricks I
+                taught him follow <a id="milo-link" href="https://www.instagram.com/milo_the_mini_golden/" target="_blank">@Milo_the_Mini_Golden</a> on Instragram!)
+                <br>
+                <br>
+                I also love to dance! I lived out my dream being a New York Jets NFL Cheerleader through perseverance,
+                discipline, and belief in my own ability. It has pushed me beyond my physical and mental limitations
+                but this is where I have experienced the most growth and change. This is the same attitude I have when
+                faced with programming challenges. Push beyond what you think your limitations are and amazing things
+                will happen!
+              </p>
             </div>
           </div>
-      </section>
-      <!--/Section: About Me-->
-
-      <hr class="my-5">
-
-      <!--Section: Contact-->
-
-      <section class="contact-section my-5" id="contact">
-
-        <!-- Form with header -->
-        <div class="card">
-
-          <!-- Grid row -->
-          <div class="row wow fadeIn"">
-  
-        <!-- Grid column -->
-        <div class=" col-lg-8">
-
-            <div class="card-body form">
-              <h2 class="h2-responsive font-weight-bold my-5 text-center">Let's <span class="logo-font-title">get
-                </span>in touch</h2>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="md-form mb-0">
-                    <input type="text" id="name" name="name" class="form-control">
-                    <label for="name" class="">Your name</label>
-                  </div>
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-6">
-                  <div class="md-form mb-0">
-                    <input type="text" id="email" name="email" class="form-control">
-                    <label for="email" class="">Your email</label>
-                  </div>
-                </div>
-                <!-- Grid column -->
-
-              </div>
-              <!-- Grid row -->
-
-              <!-- Grid row -->
-              <div class="row">
-
-                <!-- Grid column -->
-                <div class="col-md-6">
-                  <div class="md-form mb-0">
-                    <input type="text" id="subject" name="subject" class="form-control">
-                    <label for="subject" class="">Subject</label>
-                  </div>
-                </div>
-                <!-- Grid column -->
-
-              </div>
-              <!-- Grid row -->
-
-              <!-- Grid row -->
-              <div class="row">
-
-                <!-- Grid column -->
-                <div class="col-md-12">
-                  <div class="md-form mb-0">
-                    <textarea id="message" name="message" class="form-control md-textarea" rows="3"></textarea>
-                    <label for="message">Message</label>
-                    <a href="mailto: ersergeant@gmail.com" class="btn-floating btn-lg z-depth-3 rounded-circle"
-                      id="btn-mail" onclick="validateForm()">
-                      <i class="far fa-paper-plane"></i>
-                    </a>
-                  </div>
-                </div>
-                <!-- Grid column -->
-
-              </div>
-              <!-- Grid row -->
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card-body contact text-center h-100">
-              <h4 class="my-4 pb-2">Contact information</h4>
-              <ul class="text-lg-left list-unstyled ml-4">
-                <li>
-                  <p><i class="fas fa-map-marker-alt pr-2"></i>New York, New York</p>
-                </li>
-                <li>
-                  <p><i class="fas fa-phone pr-2"></i>702-481-2735</p>
-                </li>
-                <li>
-                  <p><i class="fas fa-envelope pr-2"></i>ersergeant@gmail.com</p>
-                </li>
-              </ul>
-              <hr class="hr-light my-4">
-              <ul class="list-inline text-center list-unstyled">
-
-                <li class="list-inline-item">
-                  <a class="p-2 fa-lg li-ic" href="https://www.linkedin.com/in/beth-sergeant-69202656/" target="_blank">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                  </>
-                </li>
-                <li class="list-inline-item">
-                  <a class="p-2 fa-lg li-ic" href="https://github.com/ersJava" target="_blank">
-                    <i class="fab fa-github"></i></a>
-                </li>
-              </ul>
-
-            </div>
-          </div>
-          <!-- Grid column -->
-
         </div>
-        <!-- Grid row -->
-
+      </div>
     </div>
-    <!-- Form with header -->
-    </section>
 
-    <!--/Section: Contact -->
+    <a href="assets/images/BethSergeantResume.pdf" target="_blank">
+      <button type="button" class="btn btn-defeault" id="resume-button">
+        <i class="fa fa-download" aria-hidden="true"></i>
+        My Resume</button></a>
+        <i class="fas fa-download"></i>
+  </div>
+  <!-- End of about section -->
 
-    <hr class="mb-5">
+  <!-- fade effect div starts -->
+  <section id="newsletter" class="newsletter text-center wow fadeInUp">
+    <div class="overlay padd-section">
 
+      <!-- start sectoion contact -->
+      <div id="contact">
+        <div class="container">
+          <div class="contact-block1">
+            <div class="row">
+
+              <div class="col-lg-6">
+                <div class="contact-contact">
+
+                  <h2>Let's<span id="logo-content"> get </span>in touch</h2>
+
+                  <ul class="contact-details">
+                    <li><i class="fa fa-location-arrow" aria-hidden="true"></i>New York, NY</li>
+                    <li><span><i class="fa fa-phone" aria-hidden="true"></i> 702-481-2735</span></li>
+                    <li><span><i class="fa fa-envelope" aria-hidden="true"></i>ersergeant@gmail.com</span></li>
+                  </ul>
+
+                  <h2>Social<span id="logo-content"> media</span></h2>
+                  <ul class="contact-details">
+                    <span><a href="https://www.linkedin.com/in/beth-sergeant-69202656/" target="_blank" id="social"><img
+                          src="assets/images/linked.svg" class="social" alt="Linkedin logo"></a></span>
+                    <span><a href="https://github.com/ersJava" target="_blank" id="social"><img
+                          src="assets/images/git.png" class="social" alt="Github logo"></a></span> </ul>
+                </div>
+              </div>
+              <!-- Conact form starts -->
+              <div class="col-lg-6">
+                <form action="mailto:ersergeant@gmail.com" method="post" role="form" class="contactForm">
+                  <div class="row">
+                    <!-- <div id="sendmessage">Your message has been sent. Thank you!</div> -->
+                    <div id="errormessage"></div>
+                    <div class="col-lg-6">
+                      <div class="form-group contact-block1">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                          data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                        <div class="validation"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                          data-rule="email" data-msg="Please enter a valid email" />
+                        <div class="validation"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                          data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                        <div class="validation"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="form-group">
+                        <textarea class="form-control" name="message" rows="12" data-rule="required"
+                          data-msg="Please write something for me" placeholder="Message"></textarea>
+                        <div class="validation"></div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <input type="submit" class="btn btn-defeault" value="Send message">
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <!-- Contact form ends -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- fade effect div ends -->
     </div>
-  </main>
-  <!--Main layout-->
+  </section>
 
-  <!--Footer-->
-  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
-    <div class="footer-copyright py-3">
-      © 2019 Copyright: Beth Sergeant
-    </div>
+  <!-- Footer -->
+  <footer class="container-fluid text-center">
+    BETH SERGEANT
+    <br>
+    &copy 2019
   </footer>
-  <!--/.Footer-->
 
-  <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/mdb.min.js"></script>
-  <script type="text/javascript">
-    // Animations initialization
-    new WOW().init();
-  </script>
+  <script src="assets/js/animation.js"></script>
   <script>
     $(document).ready(function () {
-      $(".navbar a, footer a[href='#landing']").on('click', function (event) {
+      $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
+
+        // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
+
+          // Prevent default anchor click behavior
           event.preventDefault();
+
+          // Store hash
           var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
           $('html, body').animate({
             scrollTop: $(hash).offset().top
           }, 900, function () {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
             window.location.hash = hash;
           });
         }
       });
     })
-  </script>
-
-  <script>
-    function validateForm() {
-      document.getElementById('status').innerHTML = "Sending...";
-      formData = {
-        'name': $('input[name=name]').val(),
-        'email': $('input[name=email]').val(),
-        'subject': $('input[name=subject]').val(),
-        'message': $('textarea[name=message]').val()
-      };
-      $.ajax({
-        url: "mail.php",
-        type: "POST",
-        data: formData,
-        success: function (data, textStatus, jqXHR) {
-
-          $('#status').text(data.message);
-          if (data.code) //If mail was sent successfully, reset the form.
-            $('#contact-form').closest('form').find("input[type=text], textarea").val("");
-        },
-        error: function (jqXHR, textStatus, errorThrown) {
-          $('#status').text(jqXHR);
-        }
-      });
-
-    }
   </script>
 </body>
 

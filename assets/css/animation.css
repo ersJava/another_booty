@@ -1,0 +1,90 @@
+      .awesome {
+        
+        font-style: italic;
+        color:#313131;
+        font-weight: bold;
+        -webkit-animation:colorchange 10s infinite alternate;
+        
+      }
+  
+      @-webkit-keyframes colorchange {
+        0% {
+          
+          color: #67aeca;
+        }
+        
+        10% {
+          
+          color: #f4f4f4;
+        }
+        
+        20% {
+          
+          color:  #e52a6f;
+        }
+        
+        30% {
+          
+          /* color: #5f0f4e; */
+        }
+        
+        40% {
+          
+          color: #67aeca;
+        }
+        
+        50% {
+          
+          color: #f4f4f4;
+        }
+        
+        60% {
+          
+          color: #e52a6f;
+        }
+        
+        70% {
+          
+          /* color: #5f0f4e; */
+        }
+        80% {
+       
+          color:  #67aeca;
+        }
+        
+        90% {
+       
+          color: #f4f4f4;
+        }
+        
+        100% {
+          
+          color:#e52a6f;
+        }
+      }
+/* Hello World */
+
+ @mixin center(){
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+    left:50%;
+    top:50%;
+}
+
+.title{
+  font-weight: 1000;
+  font-family: 'Poppins', sans-serif;
+  color: transparent;
+  font-size: 120px;
+  background: url("../images/5.png");
+  background-position: 40% 50%;
+  -webkit-background-clip: text;
+  position: relative;
+  text-align: center;
+  line-height: 90px;
+  letter-spacing: -8px;
+
+}
+
+

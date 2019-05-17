@@ -1,19 +1,8 @@
-Features I want to add later:
+# ERS
 
-colorful scroll bar : https://mdbootstrap.com/docs/jquery/javascript/scroll/
-Add favicon
+Things to add
 
-Fix home landing buttong
-
-Add animation back on landing (I love to ... )
-Add blinking terminal sign
-
-Add color to titles
-
-Change resumebutton color
-Make bio pic small on mobile
-
-Center contact information
-Mail sends directly https://mdbootstrap.com/docs/jquery/forms/contact/#php
-change color of contact form when you start writing
-
+1. Hover effect on Nav Logo
+2. Active tab effect on each section
+3. CSS animation in hello page - to do a wave effect
+5. Add a different cursor for site
